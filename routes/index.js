@@ -7,9 +7,4 @@ router.get("/", function (req, res, next) {
   res.render("index", { title: "Express" });
 });
 
-// eslint-disable-next-line no-unused-vars
-router.get("/:id", (req, res, next) => {
-  res.json({ success: true });
-});
-
 module.exports = router;

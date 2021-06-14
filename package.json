@@ -11,7 +11,9 @@
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "hbs": "^4.1.2",
+    "helmet": "^4.6.0",
     "http-errors": "~1.6.3",
+    "lodash": "^4.17.21",
     "morgan": "~1.9.1"
   },
   "devDependencies": {
@@ -19,6 +21,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "jest": "^27.0.4",
+    "nodemon": "^2.0.7",
     "prettier": "^2.3.1",
     "supertest": "^6.1.3"
   }
